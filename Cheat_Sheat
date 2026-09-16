@@ -1,0 +1,27 @@
+float is een data type met een waarde van een variabele met een komma getal
+int is een data type met een waarde van een variabele met een heel getal
+String is een data type voor een tekstvariabel tussen aanhalingstekens
+
+Variabele = Variabele + 6 betekent dat de variabele een nieuwe waarde krijgt
+Variabel++ betekent dat je de waarde van de variabele optelt met 1
+
+println is voor als je iets wilt laten uitprinten in de console hieronder
+print is voor als je iets in jouw applicatiescherm wilt uitprinten
+
+== betekent gelijk aan
+!= betekent niet gelijk aan
+> betekent groter
+< betekent kleiner
+=> betekent groter of gelijk aan
+<= betekent kleiner of gelijk aan
+
+if statement is als een code block true is
+} else { is voor als de if statement niet true is opgevolgd door een andere if
+
+&& betekent EN
+|| betekent OF
++ betekent optellen
+- betekent aftrekken
+* betekent vermenigvuldigen
+/ betekent delen 
+% betekent formuleren
