@@ -1,0 +1,118 @@
+String skoda = "Dat is vast een dure auto";
+int eenLeeftijdvoorbeeld = 16;
+float deelsom = 36 / 6;
+
+println(skoda);
+
+println(eenLeeftijdvoorbeeld);
+
+println(deelsom);
+
+String baby = "0 || 1";
+String dreumes = "1 || 2";
+String peuter = "2 || 3 || 4";
+String kleuter = "4 || 5 || 6"; 
+
+println(3==3);  //ik dacht zelf dat dit true was die had ik goed
+println(4<=5);  //ik dacht zelf dat dit true was die had ik goed
+int a = 5;println(3 > a);  //ik dacht zelf dat dit false was die had ik goed
+println(a!=4);  //ik dacht zelf dat dit true was die had ik goed
+println(2>1); //ik dacht zelf dat dit false was die had ik fout
+
+//Nummer twee van de println is false;
+//Nummer twee van de println is true;
+//Nummer drie van de println is true;
+//Nummer vier van de println is true;
+//Nummer vijf van de println is false;
+
+//A.;
+
+int temperatuurCelsius = 28;
+if(temperatuurCelsius > 25 && temperatuurCelsius < 30){
+  println("warm");
+}
+
+if(temperatuurCelsius >= 30){
+  println("heet");
+}
+
+println("Het is nu 21 graden");
+
+int speler1Score = 30;
+int speler2Score = 30;
+
+if(speler1Score > speler2Score){
+  println("Speler 1 heeft gewonnen!");
+}
+
+else if(speler2Score > speler1Score){
+    println("Speler 2 heeft gewonnen!");
+  }
+  
+else if(speler1Score == speler2Score) { 
+    println("Het is gelijkspel!");
+  }
+
+int x = 12;
+int y = 8;
+if(x > 10){
+x = x - 5;
+if (x > 10 || y <= 10) {
+x++;
+y++;
+
+println("hier wil ik zijn");
+}
+}
+
+int steen1 = 1;
+int steen2 = 4;
+int steen3 = 5;
+float stenen = 13.5; // 4.5 + 4.5 + 4.5 = 13;
+String resultaat = "HIT!";
+
+if(steen1 == 1){
+  println("MIS!");
+}
+steen2 = steen2 - 3;
+if(steen2 == 1){
+  println("MIS!");
+}
+steen3 = steen3 - 4;
+if(steen3 == 1){
+  println("MIS!");
+}
+
+if(stenen / 3 == 4.5){
+println(resultaat);
+}
+
+if(steen1 == 1 || steen2 == 1 || steen3 == 1){
+  println("CRITICAL MIS!");
+}
+
+// 17 van de 20 = 85 procent;
+float procentenLessenJan = 85;
+float gemiddeldeLessen = 80;
+float JavaJugglingandCodeDebugging = 5.5;
+float Jan = 7;
+
+if(Jan >= JavaJugglingandCodeDebugging && procentenLessenJan >= gemiddeldeLessen){
+  println("Geslaagd!");
+}
+
+else if(Jan < JavaJugglingandCodeDebugging && procentenLessenJan <= gemiddeldeLessen){
+  println("Gezakt!");
+}
+// 16 van de 20 = 80 procent;
+
+float procentenLessenKlaas = 80;
+float Klaas = 5.5;
+
+if(Klaas >= JavaJugglingandCodeDebugging && procentenLessenKlaas >= gemiddeldeLessen){
+  println("Geslaagd!");
+}
+
+else if(Klaas < JavaJugglingandCodeDebugging && procentenLessenKlaas <= gemiddeldeLessen){
+  println("Gezakt!");
+}
